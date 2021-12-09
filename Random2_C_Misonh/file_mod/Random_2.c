@@ -93,11 +93,11 @@ DType sphere_volume_Monte_Carlo_Random_2(Random_2* self, NType N, FILE* fout) {
     vol = (pow(2, N)*hit)/100000;
     printf("Volume of a %u-sphere: %lf\n", N, vol);
     printf("Actual volume: %lf\n", n_vol);
-    printf("Fractional error: %lf\n", fabs(n_vol - vol));
+    printf("Math error: %lf\n", fabs(n_vol - vol));
     if (fout) {
         fprintf(fout, "Volume of a %u-sphere: %lf\n", N, vol);
         fprintf(fout, "Actual volume: %lf\n", n_vol);
-        fprintf(fout, "Fractional error: %lf\n", fabs(n_vol - vol));
+        fprintf(fout, "Math error: %lf\n", fabs(n_vol - vol));
     }
     return vol;
 }
