@@ -1,0 +1,9 @@
+Next s_n: 113135825
+Next r_n: 0.421464
+Random integer: 613638965
+Random real: -88265719.774979
+Correlation coefficient of 1000-dimensional vectors = 0.0
+Correlation coefficient of 120-dimensional vectors = 0.1
+Volume of a 6-sphere: 5.120000
+Actual volume: 5.167713
+Fractional error: 0.047713
